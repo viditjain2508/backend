@@ -104,6 +104,9 @@ app.get('/paymentStatus/:userId', async (req, res) => {
   }
 });
 
+app.get("/ping", async(req,res)=>{
+  return res.json({"msg":"Message found"});
+})
 
 // Handling payment for a particular user
 app.post('/makePayment/:userId', async (req, res) => {
