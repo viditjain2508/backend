@@ -50,9 +50,6 @@ These implementations ensure a smooth and efficient operation of YogaFlex, provi
 
 There are three tables in the database - user, batchChange, payments. 'user' stores user details, 'batchChange' stores batch change requests by users, and 'payments' stores the payment status of users.
 
-# Yogaflex Application Readme
-
-Welcome to the Yogaflex application! This readme provides a guide on setting up the frontend and backend repositories to get the application up and running.
 
 ## Getting Started
 
