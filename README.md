@@ -33,7 +33,7 @@ These implementations ensure a smooth and efficient operation of YogaFlex, provi
 
 ## ER - Diagram
 
-![YogaFlex drawio](https://github.com/viditjain2508/backend/assets/86849539/ba67ba6a-2696-4c5f-a050-96eaf0d4e669)
+![YogaFlex drawio](https://github.com/viditjain2508/backend/assets/86849539/fb9422b4-3fc1-4c6f-8392-a1a5a443485b)
 
 - **Entities:**
   - **User:** Participants with attributes - userId, age, name, email, password, batchid. Can make payments and change batches.
@@ -41,8 +41,8 @@ These implementations ensure a smooth and efficient operation of YogaFlex, provi
   - **Change Batch (Weak):** Records batch change requests with attributes - userid, batchId.
 
 - **Relations:**
-  - **User-Payment:** Relationship between users and their payments.
-  - **User-Change Batch:** Optional relationship between users and their batch change requests.
+  - **Will do:** Relationship between users and their payments.
+  - **Can (Weak):** Optional relationship between users and their batch change requests.
 
 ## Database Schema
 
