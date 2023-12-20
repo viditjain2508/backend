@@ -31,6 +31,19 @@ This section provides insights into the technical aspects of YogaFlex:
 
 These implementations ensure a smooth and efficient operation of YogaFlex, providing users with a hassle-free experience in managing their classes and payments.
 
+## ER - Diagram
+
+![YogaFlex drawio](https://github.com/viditjain2508/backend/assets/86849539/ba67ba6a-2696-4c5f-a050-96eaf0d4e669)
+
+- **Entities:**
+  - **User:** Participants with attributes - userId, age, name, email, password, batchid. Can make payments and change batches.
+  - **Payment:** Records of payments with attributes - paymentid, userid, paymentstatus to check whether the user has paid or not.
+  - **Change Batch (Weak):** Records batch change requests with attributes - userid, batchId.
+
+- **Relations:**
+  - **User-Payment:** Relationship between users and their payments.
+  - **User-Change Batch:** Optional relationship between users and their batch change requests.
+
 ## Database Schema
 
 ![Database Schema](https://github.com/viditjain2508/frontend_Yogaflex/assets/86849539/2de46581-da0c-4479-b491-686290b84ffe)
